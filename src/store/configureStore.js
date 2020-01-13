@@ -7,6 +7,5 @@ export default () => {
         expenses: expensesReducer, // key: value = state property : action handler
         filters: filtersReducer
     }));
-
     return store;
 };
